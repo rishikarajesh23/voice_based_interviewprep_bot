@@ -1,20 +1,20 @@
-# 🎤 PREPTALK: Voice-Based Interview Preparation Bot
+# PREPTALK: Voice-Based Interview Preparation Bot
 
-## 📌 Overview
+## Overview
 
 **PREPTALK** is an AI-powered voice-based interview preparation system designed specifically for college students preparing for campus placements. The platform simulates a real interview environment using voice and text interactions, helping users practice and improve their communication, technical knowledge, and confidence.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🔹 Multi-Mode Interview System
+### 1. Multi-Mode Interview System
 
 * Voice-to-Voice
 * Voice-to-Text
 * Text-to-Text
 
-### 🔹 Structured Interview Flow
+### 2. Structured Interview Flow
 
 * 3 Rounds:
 
@@ -24,25 +24,25 @@
 * Each round contains **10 questions**
 * First question is always: *“Tell me about yourself”*
 
-### 🔹 AI-Driven Question Generation
+### 3. AI-Driven Question Generation
 
 * Questions dynamically generated using AI
 * Follow-up questions based on **keyword extraction from user responses**
 * Fallback questions from database if keywords are not detected
 
-### 🔹 Real-Time Interaction
+### 4. Real-Time Interaction
 
 * 10-second response window per question
 * Automatically moves to next question if no response
 * AI does not interrupt while the user is answering
 
-### 🔹 Voice Simulation
+### 5. Voice Simulation
 
 * Text-to-Speech (TTS) for interviewer voice
 * Speech-to-Text (STT) for capturing user responses
 * Animated avatar to simulate a real interviewer
 
-### 🔹 Feedback System
+### 6. Feedback System
 
 * AI-generated feedback based on:
 
@@ -57,7 +57,7 @@
   * Weaknesses
   * Suggestions for improvement
 
-### 🔹 User Management
+### 7. User Management
 
 * User Authentication (Login/Signup)
 * Session tracking for interviews
@@ -65,38 +65,38 @@
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
-### 💻 Frontend
+### Frontend
 
 * React + Vite
 * TypeScript
 
-### ⚙️ Backend
+### Backend
 
 * Python (FastAPI)
 
-### 🤖 AI & NLP
+### AI & NLP
 
 * Google Gemini Pro 2.5 Flash (Question generation & feedback)
 * spaCy (Keyword extraction)
 
-### 🔊 Speech Processing
+### Speech Processing
 
 * gTTS (Text-to-Speech)
 * SpeechRecognition (Speech-to-Text)
 
-### 🗄️ Database
+### Database
 
 * MongoDB (Questions, user data, responses, feedback)
 
-### 🔐 Authentication
+### Authentication
 
 * Firebase Authentication
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 1. User signs up / logs in
 2. Navigates to home page
@@ -112,7 +112,7 @@
 
 ---
 
-## 🧩 Core Modules
+## Core Modules
 
 * **Interview Flow Controller**
 * **AI Question Generator**
@@ -123,24 +123,16 @@
 
 ---
 
-## ⚠️ Error Handling & Fallbacks
+## Project Setup
 
-* If AI fails → fallback questions from database
-* If STT fails → retry mechanism
-* Ensures continuous interview flow without interruptions
-
----
-
-## 📂 Project Setup
-
-### 🔹 Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/voice_based_interviewprep_bot.git
 cd voice_based_interviewprep_bot
 ```
 
-### 🔹 Backend Setup
+### Backend Setup
 
 ```bash
 cd backend
@@ -148,7 +140,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-### 🔹 Frontend Setup
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -158,7 +150,7 @@ npm run dev
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file and add:
 
@@ -169,8 +161,8 @@ FIREBASE_CONFIG=your_firebase_config
 ```
 ---
 
-## 🌟 Acknowledgment
+## Acknowledgment
 
-This project is developed as part of a mini project to enhance interview readiness using AI-driven technologies.
+This project is developed as part of our academic mini project to enhance interview readiness using AI-driven technologies.
 
 ---
